@@ -6,7 +6,7 @@ import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
 /**
- * Created by Vacho on 14.04.2016.
+ * Created by Vacho on 14.04.2016. XXXXXXXXXXXXXXXXXXXXXXX
  */
 public class HanoiFrame extends JFrame {
     private HanoiCanvas canvas;
