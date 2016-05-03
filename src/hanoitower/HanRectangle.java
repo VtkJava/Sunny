@@ -19,6 +19,7 @@ public class HanRectangle extends FigureHan {
 
     @Override
     void draw(Graphics g) {
+        // Some changes
         g.setColor(g.getColor());
 //        g.fillRect(x, y, 110, 10);
 //        g.fillRect(x + 50, y -110, 8, 120);
