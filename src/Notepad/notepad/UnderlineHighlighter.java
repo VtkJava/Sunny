@@ -2,7 +2,7 @@
  * To change this template, choose Tools | Templates
  * and open the template in the editor.
  */
-package Notepad;
+package Notepad.notepad;
 
 import javax.swing.text.*;
 import java.awt.*;
