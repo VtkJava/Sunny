@@ -1,6 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/common/src/UI/FigureCanvas.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/common/src/Util/BraceChecker.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/common/src/Util/Stack.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/common/src/Util/StackImpl.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/common/src/figure/Circle.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/common/src/figure/Figure.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/common/src/figure/FigureFrame.java" charset="windows-1251" />
+    <file url="file://$PROJECT_DIR$/common/src/figure/Rectangle.java" charset="windows-1251" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
