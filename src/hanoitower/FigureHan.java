@@ -28,6 +28,7 @@ public abstract class FigureHan {
         this.height = height;
         this.canvas = canvas;
         this.color = color;
+
     }
 
     public int getX() {
