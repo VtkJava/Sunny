@@ -5,9 +5,7 @@ import java.awt.*;
 import java.awt.event.ActionEvent;
 import java.awt.event.ActionListener;
 
-/**
- * Created by Vacho on 14.04.2016.
- */
+
 public class HanoiFrame extends JFrame {
     private HanoiCanvas canvas;
 
@@ -42,9 +40,14 @@ public class HanoiFrame extends JFrame {
 
     }
 
+    /**
+     *
+     * @param e
+     */
     private void addActionPerformed(ActionEvent e) {
         //canvas.add(new );
     }
+
 
     public static void main(String[] args) {
         new HanoiFrame();
