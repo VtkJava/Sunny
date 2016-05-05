@@ -1,4 +1,4 @@
-package Notepad.notepad;
+package notepad;
 
 
 public interface Constants {

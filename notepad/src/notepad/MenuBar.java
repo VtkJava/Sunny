@@ -1,4 +1,4 @@
-package Notepad.notepad;
+package notepad;
 
 import javax.swing.*;
 import java.io.IOException;

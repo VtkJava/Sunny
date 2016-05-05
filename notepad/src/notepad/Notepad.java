@@ -1,4 +1,4 @@
-package Notepad.notepad;
+package notepad;
 import bracechecker.BraceChecker;
 
 import javax.swing.*;
@@ -27,7 +27,7 @@ public class Notepad extends JFrame implements ActionListener{
     private String content;
     private JTextArea textArea;
     private JTextField textField;
-    private java.awt.MenuBar menuBar = new MenuBar();
+    private MenuBar menuBar = new MenuBar();
 
     public Notepad() {
 
