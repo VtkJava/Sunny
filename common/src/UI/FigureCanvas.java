@@ -169,7 +169,7 @@ public class FigureCanvas extends JPanel {
 			getSelected().resume();
 		}
 	}
-
+//asasa
 	@Override
 	public void paint(Graphics g) {
 
