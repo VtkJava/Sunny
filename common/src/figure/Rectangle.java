@@ -5,6 +5,8 @@ import java.awt.*;
 
 public class Rectangle extends Figure {
 
+    /*kkkkkkkkkkkkk*/
+
     public Rectangle(int x, int y, int width, int height, FigureCanvas canvas) {
         this(x, y, width, height, canvas, Color.BLUE );
     }
