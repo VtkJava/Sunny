@@ -1,5 +1,5 @@
 package figure;
-import UI.FigureCanvas;
+import ui_.FigureCanvas;
 
 import java.awt.*;
 
@@ -14,13 +14,13 @@ public class Rectangle extends Figure {
     }
 
 //    @Override
-    void draw(Graphics g) {
+public void draw(Graphics g) {
         g.setColor(getColor());
         g.fillRect(getX(), getY(), getWidth(), getHeight());
     }
 
     @Override
-    boolean isBelong(int x, int y) {
+    public boolean isBelong(int x, int y) {
         return x >= this.getX() && x <= (this.getX() + this.getWidth())
                 && y >= this.getY() && y <= (this.getY() + this.getHeight());
     }

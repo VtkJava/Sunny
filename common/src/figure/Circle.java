@@ -1,6 +1,6 @@
 package figure;
 
-import UI.FigureCanvas;
+import ui_.FigureCanvas;
 
 import java.awt.*;
 
@@ -23,7 +23,7 @@ public class Circle extends Figure {
     }
 
     @Override
-    boolean isBelong(int x, int y) {
+    public boolean isBelong(int x, int y) {
         return (x - (getX() + getWidth()/2))*(x - getX() - getWidth()/2)
                 + (y - getY() - getHeight()/2)*(y - getY() - getHeight()/2) <= getHeight()*getHeight()/4 ;
     }

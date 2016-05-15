@@ -1,6 +1,6 @@
 package figure;
 
-import UI.FigureCanvas;
+import ui_.FigureCanvas;
 
 import java.awt.*;
 
@@ -74,8 +74,8 @@ abstract public class Figure implements Runnable {
         return color;
     }
 
-    abstract void draw(Graphics g);
-    abstract boolean isBelong(int x, int y);
+    public abstract void draw(Graphics g);
+    public abstract boolean isBelong(int x, int y);
 
     public void move(int dX, int dY) {
         x += dX;
