@@ -1,4 +1,6 @@
 package figure;
+
+
 import ui_.FigureCanvas;
 
 import java.awt.*;
