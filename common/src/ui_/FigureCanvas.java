@@ -1,4 +1,4 @@
-package UI;
+package ui_;
 
 
 import figure.*;
@@ -9,12 +9,7 @@ import java.awt.event.*;
 import java.util.ArrayList;
 import java.util.List;
 
-/**
- * Company: WeDooApps
- * Date: 12/27/15
- * <p/>
- * Created by Adam Madoyan.
- */
+/*changed package name*/
 public class FigureCanvas extends JPanel {
 	public static final int DEFAULT_MARGIN = 50;
 	public static final Color DEFAULT_BORDER_COLOR = new Color(250, 244, 161);
@@ -211,6 +206,7 @@ public class FigureCanvas extends JPanel {
 		mX = e.getX();
 		mY = e.getY();
 	}
+
 
 	private void mouseDraggedPerformed(MouseEvent e) {
 
