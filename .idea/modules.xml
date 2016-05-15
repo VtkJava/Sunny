@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Sunny.iml" filepath="$PROJECT_DIR$/Sunny.iml" />
       <module fileurl="file://$PROJECT_DIR$/common/common.iml" filepath="$PROJECT_DIR$/common/common.iml" />
+      <module fileurl="file://$PROJECT_DIR$/notepad/notepad.iml" filepath="$PROJECT_DIR$/notepad/notepad.iml" />
     </modules>
   </component>
 </project>

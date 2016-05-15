@@ -2,9 +2,7 @@ package hanoitower;
 
 import java.awt.*;
 
-/**
- * Created by Vacho on 13.04.2016.
- */
+
 public class HanRectangle extends FigureHan {
 
     public HanRectangle(int x, int y, int width, int height,HanoiCanvas canvas) {

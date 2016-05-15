@@ -2,9 +2,7 @@ package hanoitower;
 
 import java.awt.*;
 
-/**
- * Created by Vacho on 13.04.2016.
- */
+
 public abstract class FigureHan {
 
     public static final Color DEFAULT_COLOR = Color.orange;
@@ -70,3 +68,5 @@ public abstract class FigureHan {
     abstract void draw(Graphics g);
 
 }
+
+

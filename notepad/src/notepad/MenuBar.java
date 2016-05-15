@@ -7,9 +7,6 @@ import java.util.Properties;
 
 import static notepad.Constants.*;
 
-/**
- * Created by 1 on 27.04.2016.
- */
 public class MenuBar extends JMenuBar {
 
     private JMenu file;

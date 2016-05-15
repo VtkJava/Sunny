@@ -7,9 +7,7 @@ import java.awt.*;
 import java.util.*;
 import java.util.List;
 
-/**
- * Created by Vacho on 13.04.2016.
- */
+
 public class HanoiCanvas extends JPanel {
 
     public HanoiCanvas canvas;
