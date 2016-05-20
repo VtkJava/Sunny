@@ -23,10 +23,7 @@ public class Disc extends Figure {
 
     @Override
     public void draw(Graphics g) {
-        g.setColor(new Color(0xFF7D7F));
-        g.fillRect(getX(), getY(), getWidth(), getHeight());
-        g.setColor(new Color(0xFF3E12));
-        g.drawLine(getX(), getY(), getX() + getWidth() - 1, getY());
+
 
     }
 
