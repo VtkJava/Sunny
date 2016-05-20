@@ -1,8 +1,6 @@
 package hanoitower;
 
-/**
- * Created by 1 on 20.05.2016.
- */
+
 public class Constants {
 
     static final int DISC_HEIGHT = 15;
