@@ -1,48 +1,50 @@
 package hanoitower;
 
 
+import ui.FigureCanvas;
 
-import javax.swing.*;
 import java.awt.*;
-import java.util.*;
-import java.util.List;
 
 
-public class HanoiCanvas extends JPanel {
+public class HanoiCanvas extends FigureCanvas implements Runnable {
 
     public HanoiCanvas canvas;
-    public HanRectangle border;
-    private List<FigureHan> figures = new ArrayList<>();
+
+    private Peg peg1;
+    private Peg peg2;
+    private Peg peg3;
 
 
-    public HanoiCanvas(){
+    public HanoiCanvas() {
 
     }
+
     @Override
     public void paint(Graphics g) {
         super.paint(g);
 
-        int x =175;
-        int y = 275;
+        g.setColor(Color.GRAY);
+        g.fillRect(150, 67, 17, 270);
+        g.fillRect(510,335, 220, 20);
 
-        for (int i = 0; i < 3; i++) {
+        g.fillRect(385, 67, 17, 270);
+        g.fillRect(280,335,220,20);
 
-//        g.clearRect(0, 0, 2000, 2000);
-        g.fillRect(x, y, 110, 10);
-        g.fillRect(x + 50, y -110, 8, 120);
-        g.setColor(new Color(0, 0, 0));
-            g.drawRect( x , y , 110, 10);
-            x =  x + 50 + 110;
-
-
- //       for (FigureHan figure : figures) {
-   //         figure.draw(g);
-       // }
-        }
-
+        g.fillRect(620, 67, 17, 270);
+        g.fillRect(50, 335, 220, 20);
+        
     }
 
+    public void moveDisc(Peg peg1,Peg peg2) {
+//mode
     }
+
+    @Override
+    public void run() {
+
+    }
+}
+
 
 
 
