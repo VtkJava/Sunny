@@ -11,6 +11,8 @@ public class HanoiFrame extends JFrame {
 
     public HanoiFrame() {
 
+        TextField textField = new TextField();
+
         canvas = new HanoiCanvas();
 
         JButton load = new JButton("Load Disk");
@@ -25,14 +27,16 @@ public class HanoiFrame extends JFrame {
 
         JPanel configPanel = new JPanel();
         configPanel.setBackground(new Color(247, 244, 215));
-
         configPanel.add(load);
         configPanel.add(start);
+        configPanel.add(textField);
+
 
         add(configPanel, BorderLayout.NORTH);
         add(canvas, BorderLayout.CENTER);
 
         setDefaultCloseOperation(EXIT_ON_CLOSE);
+
         setSize(800, 650);
         setLocation(250, 50);
         setVisible(true);
