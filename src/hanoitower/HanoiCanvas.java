@@ -1,10 +1,7 @@
 package hanoitower;
 
-
 import ui.FigureCanvas;
-
 import java.awt.*;
-
 
 public class HanoiCanvas extends FigureCanvas implements Runnable {
 
@@ -14,9 +11,7 @@ public class HanoiCanvas extends FigureCanvas implements Runnable {
     private Peg peg2;
     private Peg peg3;
 
-
     public HanoiCanvas() {
-
     }
 
     @Override
@@ -32,7 +27,6 @@ public class HanoiCanvas extends FigureCanvas implements Runnable {
 
         g.fillRect(620, 67, 17, 270);
         g.fillRect(50, 335, 220, 20);
-
     }
 
     public void moveDisc(Peg peg1,Peg peg2) {
@@ -44,7 +38,3 @@ public class HanoiCanvas extends FigureCanvas implements Runnable {
 
     }
 }
-
-
-
-

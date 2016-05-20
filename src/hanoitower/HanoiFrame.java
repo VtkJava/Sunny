@@ -1,10 +1,9 @@
 package hanoitower;
 
+import java.awt.event.ActionListener;
+import java.awt.event.ActionEvent;
 import javax.swing.*;
 import java.awt.*;
-import java.awt.event.ActionEvent;
-import java.awt.event.ActionListener;
-
 
 public class HanoiFrame extends JFrame {
     private HanoiCanvas canvas;
@@ -12,7 +11,6 @@ public class HanoiFrame extends JFrame {
     public HanoiFrame() {
 
         TextField textField = new TextField();
-
         canvas = new HanoiCanvas();
 
         JButton load = new JButton("Load Disk");
@@ -31,7 +29,6 @@ public class HanoiFrame extends JFrame {
         configPanel.add(load);
         configPanel.add(start);
 
-
         add(configPanel, BorderLayout.NORTH);
         add(canvas, BorderLayout.CENTER);
 
@@ -40,8 +37,6 @@ public class HanoiFrame extends JFrame {
         setSize(800, 650);
         setLocation(250, 50);
         setVisible(true);
-
-
     }
 
     private void addActionPerformed(ActionEvent e) {
@@ -50,6 +45,5 @@ public class HanoiFrame extends JFrame {
 
     public static void main(String[] args) {
         new HanoiFrame();
-
     }
 }

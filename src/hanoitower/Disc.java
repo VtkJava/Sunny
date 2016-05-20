@@ -1,17 +1,12 @@
 package hanoitower;
 
-import figure.Figure;
 import ui.FigureCanvas;
-
+import figure.Figure;
 import java.awt.*;
 
-/**
- * Created by 1 on 20.05.2016.
- */
 public class Disc extends Figure {
 
      private Peg owner;
-
 
     public Disc(int x, int y, int width, int height, FigureCanvas canvas) {
         super(x, y, width, height, canvas);
@@ -22,10 +17,7 @@ public class Disc extends Figure {
     }
 
     @Override
-    public void draw(Graphics g) {
-
-
-    }
+    public void draw(Graphics g) { }
 
     @Override
     public boolean isBelong(int x, int y) {
