@@ -27,9 +27,9 @@ public class HanoiFrame extends JFrame {
 
         JPanel configPanel = new JPanel();
         configPanel.setBackground(new Color(247, 244, 215));
+        configPanel.add(textField);
         configPanel.add(load);
         configPanel.add(start);
-        configPanel.add(textField);
 
 
         add(configPanel, BorderLayout.NORTH);
