@@ -344,7 +344,7 @@ public class FigureCanvas extends JPanel {
 			this.value = value;
 			this.name = name;
 		}
-
+//lll
 		private final String name;
 		private final int value;
 
