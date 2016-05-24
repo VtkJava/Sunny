@@ -16,8 +16,12 @@ public class Disc extends Figure {
         super(x, y, width, height, canvas, color);
     }
 
+
+
     @Override
-    public void draw(Graphics g) { }
+    public void draw(Graphics g) {
+
+    }
 
     @Override
     public boolean isBelong(int x, int y) {

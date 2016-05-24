@@ -25,12 +25,10 @@ public class Peg extends Figure {
 
     @Override
     public void draw(Graphics g) {
-        g.setColor(Color.gray);
-        g.fillRect(100, 40, 4, 124);
-        g.fillRect(160, 160, 84, 4);
-        g.fillRect(200, 40, 4, 124);
-        g.fillRect(260, 160, 84, 4);
-        g.fillRect(300, 40, 4, 124);
+
+        g.setColor(new Color(0x47FF22));
+        g.fillRect(getX(), getY(), getWidth(), getHeight());
+
     }
 
     @Override
